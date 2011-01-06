@@ -25,7 +25,7 @@
 
 
 /*
- * TODO:  
+ * TODO:
  * 	make led do something more?
  */
 
@@ -44,15 +44,15 @@
 #define BAUD 9600UL
 #define UBRRVAL (F_CPU/(BAUD*16)-1)
 
-#define LOWER_NB 95 //lower value for start of narrow band curve.  
-#define MAXPUMP_I 196 // maximum current value for pump (leanest). 
-#define MINPUMP_I 50 // minimum current value for pump.  
+#define LOWER_NB 95 //lower value for start of narrow band curve. 
+#define MAXPUMP_I 196 // maximum current value for pump (leanest).
+#define MINPUMP_I 50 // minimum current value for pump.
 //NOTE (based on manual pump power settings)
-// Above max, virt gnd is pushed up. 
+// Above max, virt gnd is pushed up.
 // Nothing happens below min.
 // 0 current is at 116
 #define TARGET_NERNST 724 // lambda=1 value for nurnst, target for pump pid 
-#define TARGET_TEMP 237 
+#define TARGET_TEMP 237
 #define P_temp    450
 #define I_temp    5
 #define D_temp    1
