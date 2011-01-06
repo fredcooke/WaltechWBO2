@@ -1,0 +1,6 @@
+/src/*.o
+/src/*.lst
+/src/*.hex
+/src/*.map
+/src/*.out
+
